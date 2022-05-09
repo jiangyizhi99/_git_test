@@ -18,8 +18,8 @@ int main()
     printf("%s\n\n", chinese);
 
     printf("snprintf:\n");
-    snprintf(ch_temp, sizeof ch, ch_p);
-    std::cout << ch_temp;
+    snprintf(ch_temp, sizeof(ch_temp),  "abcd");
+    std::cout << ch_temp << std::endl;
     snprintf(ch_temp, sizeof ui, ui_p);
     std::cout << ch_temp;
     snprintf(ch_temp, sizeof i, i_p);
