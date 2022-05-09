@@ -1,6 +1,6 @@
 char ch = 'a';
-char temp = 'git';
-char* ch_temp = &temp;
+char ch_temp[10];
+char* ch_temp_p = &ch_temp[0];
 char* ch_p = &ch;
 unsigned int ui = 205;
 char ui_c = static_cast <char> (ui);
