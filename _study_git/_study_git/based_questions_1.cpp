@@ -15,7 +15,7 @@ private:
     char* m_pName;
 };
 
-void main_() {
+void main_2() {
     Student s1("xiaowang");
     Student s2 = s1;
 }
